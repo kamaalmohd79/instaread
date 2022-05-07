@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/hero';
-import Menu from './components/menu';
+import Header from './components/Header.jsx';
+import Hero from './components/Hero.jsx';
+import Menu from './components/Menu.jsx';
 
 
 const App = () => {
