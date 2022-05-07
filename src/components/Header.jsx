@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import "./header.css";
 import Buy from '../assets/buy-24.png';
+import img from '../assets/img.jpg';
 
 const Header = () => {
     return(
@@ -10,9 +11,9 @@ const Header = () => {
                 <Row >
                     <Col lg="4" >
                     <Card  style={{ width: '18rem', height: '21rem' }} >
-            <Card.Body>
+            <Card.Body >
                 
-                <img src=""  alt="image" />
+                <img src={img}  alt="image" height="315"/>
                 
               </Card.Body>
             </Card>
